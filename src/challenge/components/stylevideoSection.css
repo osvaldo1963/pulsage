@@ -1,0 +1,82 @@
+.videocon {
+    padding: 0px 10px;
+    width:300px;
+    display:inline-block;    
+}
+.videoView {
+    background-color: lightgray;
+    width: 100%;
+    height: 160px;          
+}
+
+.videoView video{
+    height: 160px;
+    width: 100%;
+    display: block;
+}
+
+.videoTitle {
+    color:#000;
+    font-family: 'Arial', sans-serif;
+    font-size:22px;
+    padding-left: 15px;
+}
+.Attemps{
+    color: gray;
+    font-size: 12px;
+    margin: auto;
+}
+
+.bottomSection {
+    padding-top:10px;
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    width:100%;
+    font-size: 12px;
+    font-family: 'Noto Sans', sans-serif;
+}
+.rounded-circle {
+    width: 40px;
+    height: 40px;
+}
+
+.profile {
+    padding-top: 3px;
+    float: right;
+    margin: auto;
+    text-align: center;
+}
+.profileText {
+    font-size: 12px;
+}
+
+@media only screen and (max-width: 650px) {
+    .videoTitle{
+	    padding-left: 0px;
+	}
+
+    .videocon {
+        height: unset;
+        width:100%;
+        padding-left:0;
+        padding-right:0
+    }
+    .videoView {
+        height: unset;
+	background-color:#d3d3d3;
+	width:100%;
+	margin-top: 10px;         
+    }
+    .videoView video{
+		height: unset;
+		max-height:56vw;
+		width: 100%;
+    }
+    .section{
+        margin-top: -15px;
+        margin-bottom: -5px;
+        display:block;
+        width:100%
+	}
+}

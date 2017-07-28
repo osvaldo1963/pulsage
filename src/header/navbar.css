@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Anton');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+
+a{
+	text-decoration: none;
+}
+ 
+body{
+	margin:0;
+	padding:0;
+	font-family:sans-serif
+}
+
+.navbar{
+	border-bottom: 1px solid #ccc;
+	padding: .3rem 1rem;
+}
+
+.navbar-brand img{
+	height: 35px;
+}
+
+.uploadButton{
+	position: absolute;
+	right: 85px;
+	top: 14px;
+}
+
+.navbar-toggler{
+	border: none;
+}
+
+.search{
+	width: 300px;
+}
+
+@media only screen and (min-width:650px){
+	.navbar{
+		padding-left: 50px;
+		padding-right: 50px;
+		border: none;
+	}
+	.navbar-toggler-right{
+		right: 50px;
+	}
+
+	.uploadButton{
+	right: 8rem;
+	}
+}
+
