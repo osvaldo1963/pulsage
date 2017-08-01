@@ -36,3 +36,9 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
+Proprietary Software 
+	
+Proprietary software is software that is owned osvaldo lopez. There are almost always major restrictions on its use, and its source code is almost always kept secret.
+
+Source code is the form in which a program is originally written by osvaldo using a javascript and prior to being converted to machine code which is directly readable by a computer's CPU . It is necessary to have the source code in order to be able to modify or improve a program.
+
