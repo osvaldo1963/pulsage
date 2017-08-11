@@ -30,6 +30,18 @@ class Section extends Component {
                     for(var i = 0;i < data.length; i++){
                         var object = data[i];
                         var url = object.get('video').url();
+                        var userid = object.get('user');
+                    
+                        var usernme = '';
+                        // Create a combined "or" query from the single queries
+                        var finalQuery = new Parse.Query(Parse.User);
+                        finalQuery.equalTo('objectId', userid);
+                        finalQuery.find((foundUsers) => {
+                            username = foundUsers.get('username');
+                        },
+                        (error) => console.log(error))
+                        .catch((error) => util.makeErrorResponse(error, response));
+                        }
                         container.push(<Videosection id={object.id} videourl={url} name={object.get('name')}  key={i} />);
                     }
                 }
