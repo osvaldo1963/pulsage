@@ -38,7 +38,7 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 Proprietary Software 
 	
-Proprietary software is software that is owned osvaldo lopez. There are almost always major restrictions on its use, and its source code is almost always kept secret.
+Proprietary software is software that is owned Pulsage inc. There are almost always major restrictions on its use, and its source code is almost always kept secret.
 
-Source code is the form in which a program is originally written by osvaldo using a javascript and prior to being converted to machine code which is directly readable by a computer's CPU . It is necessary to have the source code in order to be able to modify or improve a program.
+Source code is the form in which a program is originally written by Pulsage inc using a javascript and prior to being converted to machine code which is directly readable by a computer's CPU . It is necessary to have the source code in order to be able to modify or improve a program.
 
